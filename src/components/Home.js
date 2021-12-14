@@ -1,13 +1,6 @@
-import logo from '../logo.svg';
-import controller from '../controller.svg';
 import happy from '../happy.svg';
 import '../App.css';
-import Greet from './Greet';
-import Message from './Message';
 import Button from './Button';
-import Hello from './Hello';
-import Employee from './Employee';
-import NavBar from './NavBar';
 
 
 //jsx   jx xml
@@ -28,6 +21,7 @@ function Home() {
         <p>
           Use the Navigation Bar above to navigate to our registration forms.
         </p>
+        <Button/>
       </header>
     </div>
     

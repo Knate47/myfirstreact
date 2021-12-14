@@ -19,7 +19,7 @@ class Button extends React.Component{
     render (){
         return (
             <div>
-                <button onClick={this.addCount}>Click me!</button>
+                <button onClick={this.addCount}>Click me PLEASE!</button>
                 <p>Number of Clicks: {this.state.count}</p>
             </div>
         )
